@@ -7,17 +7,21 @@
   src: url("/css/font/Wahyu and Sani Co. - Genera Alt Light.ttf");
 }
 .cards {
-  width: 250px;
-  height: 100px;
+  width: 80%;
+  height: auto;
 }
 .cards__orange {
   background-color: #e28525;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .cards__blue {
   background-color: #016972;
 }
 .cards__green {
   background-color: #00403f;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .cards__title {
   font-family: Zuume;
@@ -35,10 +39,43 @@
   font-family: texto;
   font-weight: 900 !important;
   font-size: 12px;
+}
+.cards__btn--orange {
   color: #e28525;
 }
 .cards__btn--orange :hover {
   background-color: #e28525;
   color: white;
   border: white;
+}
+.cards__btn--orange {
+  color: #e28525;
+}
+.cards__btn--orange :hover {
+  background-color: #016972;
+  color: white;
+  border: white;
+}
+.cards__btn--orange {
+  color: #e28525;
+}
+.cards__btn--orange :hover {
+  background-color: #00403f;
+  color: white;
+  border: white;
+}
+
+@media (min-width: 415px) {
+  .cards__orange {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: none;
+    border-top-right-radius: 0px;
+  }
+  .cards__green {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */
