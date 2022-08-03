@@ -1,0 +1,46 @@
+@use "./variables";
+
+.cards {
+width: 250px;
+height: 100px;
+  &__orange {
+    background-color: #e28525;
+  }
+  &__blue {
+    background-color: #016972;
+  }
+  &__green {
+    background-color: #00403f;
+  }
+  &__img{
+    
+  }
+
+  &__title{
+    font-family: Zuume;
+  }
+  &__text{
+    font-family: texto;
+    font-weight: 600;
+    color: white;
+    opacity: .7;
+    font-size: 13px;
+  }
+  &__btn{
+    background-color: white;
+    border-radius: 20px;
+    font-family: texto;
+    font-weight: 900 !important;
+    font-size: 12px;
+        &--orange{
+            :hover{
+                background-color: #e28525;
+                color: white;
+                border: white;
+            }
+        }
+            color:#e28525
+            
+  }
+}
+

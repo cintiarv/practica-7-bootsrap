@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Zuume";
+  src: url("/css/font/Zuume-Regular.woff");
+}
+@font-face {
+  font-family: "texto";
+  src: url("/css/font/Wahyu and Sani Co. - Genera Alt Light.ttf");
+}
+.cards {
+  width: 250px;
+  height: 100px;
+}
+.cards__orange {
+  background-color: #e28525;
+}
+.cards__blue {
+  background-color: #016972;
+}
+.cards__green {
+  background-color: #00403f;
+}
+.cards__title {
+  font-family: Zuume;
+}
+.cards__text {
+  font-family: texto;
+  font-weight: 600;
+  color: white;
+  opacity: 0.7;
+  font-size: 13px;
+}
+.cards__btn {
+  background-color: white;
+  border-radius: 20px;
+  font-family: texto;
+  font-weight: 900 !important;
+  font-size: 12px;
+  color: #e28525;
+}
+.cards__btn--orange :hover {
+  background-color: #e28525;
+  color: white;
+  border: white;
+}/*# sourceMappingURL=style.css.map */
